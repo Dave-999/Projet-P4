@@ -29,9 +29,9 @@
 
 \thispagestyle{plain}
 \fancypagestyle{plain}{
-%\fancyhead[L]{\includegraphics[height=8pt]{headers/LH}}
+\fancyhead[L]{\includegraphics[height=20pt]{epl-logo}}
 %\fancyhead[C]{\hspace{-1cm}\includegraphics[height=20pt]{headers/CH}}
-%\fancyhead[R]{\includegraphics[height=10pt]{headers/RH}\vspace{-0.2cm}}
+\fancyhead[R]{LFSAB1505: Project 4 (in applied physics and chemistry) }
 \renewcommand{\headrulewidth}{1pt}}
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \renewcommand\footnoterule{\vspace*{1pt}% 
@@ -66,127 +66,38 @@
 
 \twocolumn[
   \begin{@twocolumnfalse}
-\noindent\LARGE{\textbf{This is the title$^\dag$}}
+\noindent\LARGE{\textbf{Properties characterisation of a nickel silver key}}
 \vspace{0.6cm}
 
-\noindent\large{\textbf{Full Name,$^{\ast}$\textit{$^{a}$} Full Name,\textit{$^{b\ddag}$} and
-Full Name\textit{$^{a}$}}}\vspace{0.5cm}
-%Please note that \ast indicates the corresponding author(s) but no footnote text is required. 
+\noindent\large{\textbf{Florian Baulard, Robin Crits, David Dispas and Arnaud Paquet$^{\ast}$}}\vspace{0.5cm}
 
 
-\noindent\textit{\small{\textbf{Received Xth XXXXXXXXXX 20XX, Accepted Xth XXXXXXXXX 20XX\newline
-First published on the web Xth XXXXXXXXXX 200X}}}
+\noindent\textit{\small{\textbf{Major/minor in chemical and physical engineering - Université catholique de Louvain-la-Neuve, Belgium}}}
+\end{@twocolumnfalse}
 
-\noindent \textbf{\small{DOI: 10.1039/b000000x}}
-\vspace{0.6cm}
-%Please do not change this text.
+\begin{abstract}
 
 \noindent \normalsize{The abstract should be a single paragraph which summarises the content of the article. Any references in the abstract should be written out in full \textit{e.g.} [Surname \textit{et al., Journal Title}, 2000, \textbf{35}, 3523].}
 \vspace{0.5cm}
- \end{@twocolumnfalse}
+\end{abstract}
   ]
 
-
-\section{This is the section heading style}
 %Footnotes
-\footnotetext{\dag~Electronic Supplementary Information (ESI) available: [details of any supplementary information available should be included here]. See DOI: 10.1039/b000000x/}
 
-%Please use \dag to cite the ESI in the main text of the article.
-%If you article does not have ESI please remove the the \dag symbol from the title and the above footnotetext.
-
-\footnotetext{\textit{$^{a}$~Address, Address, Town, Country. Fax: XX XXXX XXXX; Tel: XX XXXX XXXX; E-mail: xxxx@aaa.bbb.ccc}}
-\footnotetext{\textit{$^{b}$~Address, Address, Town, Country. }}
-
-%additional addresses can be cited as above using the lower-case letters, c, d, e... If all authors are from the same address, no letter is required
-
-\footnotetext{\ddag~Additional footnotes to the title and authors can be included \emph{e.g.}\ `Present address:' or `These authors contributed equally to this work' as above using the symbols: \ddag, \textsection, and \P. Please place the appropriate symbol next to the author's name and include a \texttt{\textbackslash footnotetext} entry in the the correct place in the list.}
+\footnotetext{$^{\ast}$E-mail adresses: florian.baulard@student.uclouvain.be(F. Baulard), robin.crits@student.uclouvain.be(R. Crits), david.dispas@student.uclouvain.be(D. Dispas), arnaud.paquet@student.uclouvain.be(A. Paquet).}
 
 
-The main text of the article\cite{Mena2000} should appear here.
+\section{Introduction}
 
-\subsection{This is the subsection heading style}
-Section headings can be typeset with and without numbers.\cite{Abernethy2003}
+\section{Materials and methods}
 
-\subsubsection{This is the subsubsection style.~~} These headings should end in a full point.  
+\section{Results}
 
-\paragraph{This is the next level heading.~~} For this level please use \texttt{\textbackslash paragraph}. These headings should also end in a full point.
-
-\section{Equations}
-
-Equations can be typeset inline \textit{e.g.} $ y = mx + c$ or displayed with and without numbers:
-
- \[ A = \pi r^2 \]
-
-\begin{equation}
-  \frac{\mathrm{\gamma}}{\mathrm{\epsilon}x} r^2 = 2r
-\end{equation}
-
-\section{Graphics and tables}
-\subsection{Graphics}
-Graphics should be inserted on the page where they are first mentioned (unless they are equations, which appear in the flow of the text).\cite{Cotton1999}
-
-%\begin{figure}[h]
-%\centering
- % \includegraphics[height=3cm]{example}
-  %\caption{An example figure caption}
-  %\label{fgr:example}
-%\end{figure}
-
-% an example of a two-column figure
-%\begin{figure*}
-  %\centering
-  %\includegraphics[height=3cm]{example.jpg}
-  %\caption{An example figure caption, an image from the \textit{Physical Chemistry Chemical Physics} cover gallery.}
-  %\label{fgr:example}
-%\end{figure*}
-
-\subsection{Tables}
-Tables typeset in RSC house style do not include vertical lines. Table footnote symbols are lower-case italic letters and are typeset at the bottom of the table. Table captions do not end in a full point.\cite{Arduengo1992,Eisenstein2005}
-
-
-\begin{table}[h]
-\small
-  \caption{\ An example of a caption to accompany a table}
-  \label{tbl:example}
-  \begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}lll}
-    \hline
-    Header one/units & Header two & Header three \\
-    \hline
-    1 & 2 & 3 \\
-    4 & 5 & 6 \\
-    7 & 8 & 9 \\
-    10 & 11 & 12 \\
-    \hline
-  \end{tabular*}
-\end{table}
-
-Adding notes to tables can be complicated.  Perhaps the easiest
-method is to generate these manually.
-
-% an example of a two-column table
-%\begin{table*}
-%\small
-  %\caption{\ An example of a caption to accompany a table, table captions do not end in a full point}
-  %\label{tbl:example}
-  %\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lllllll}
-    %\hline
-    %Header one & Header two & Header three & Header four & Header five & Header six  & Header seven\\
-    %\hline
-    %1 & 2 & 3 & 4 & 5 & 6  & 7\\
-    %8 & 9 & 10 & 11 & 12 & 13 & 14 \\
-    %15 & 16 & 17 & 18 & 19 & 20 & 21\\
-    %\hline
-  %\end{tabular*}
-%\end{table*}
-
-You can also put lists into the text. You can have bulleted or numbered lists of almost any kind. 
-The \texttt{mhchem} package can also be used so
-that formulae are easy to input: \texttt{\textbackslash ce\{H2SO4\}} gives \ce{H2SO4}. 
-
+\section{Discussion}
 
 \section{Conclusions}
-The conclusions section should come at the end of article. For the reference section, the style file rsc.bst can be used to generate the correct reference style.\footnote[4]{Footnotes should appear here. These might include comments relevant to but not central to the matter under discussion, limited experimental and spectral data, and crystallographic data.}
- %For footnotes in the main text of the article please number the footnotes to avoid duplicate symbols. e.g.  \footnote[num]{your text} the corresponding author \ast counts as footnote 1, ESI as footnote 2, e.g. if there is no ESI, please start at [num]=[2], if ESI is cited in the title please start at [num]=[3] etc. Please also cite the ESI within the main body of the text using \dag.
+\section*{Acknowledgements}
+
 
 
 
